@@ -3,18 +3,19 @@ import Layout from '../layouts/Layout.astro';
 import HeaderLanding from '../components/HeaderLanding.astro';
 import HeroSection from '../components/HeroSection.astro';
 import ChargeSection from '../components/ChargeSection.astro';
+import ModelThreeSection from '../components/ModelThreeSection.astro';
 ---
 
-<Layout title="Welcome to Astro.">
+<Layout title="Electric Cars, Solar & Clean Energy | Tesla">
 	<HeaderLanding />
-	<main class="relative w-full h-screen overflow-auto snap-y snap-mandatory">
+	<main class="relative w-full h-screen overflow-auto overflow-x-hidden snap-y snap-mandatory">
 
 		<div class="snap-start">
 			<HeroSection />
 		</div>
 
 		<div class="snap-start">
-			<ChargeSection />
+			<ModelThreeSection />
 		</div>
 
 		<div class="snap-start">
